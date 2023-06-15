@@ -1,0 +1,17 @@
+body {
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  background-color: #f4b354;
+}
+
+.container {
+  margin: 100px auto;
+  background-color: #c65405;
+  width: 90%;
+  border-radius: 4px;
+  padding: 20px 15px;
+}
+.links {
+  padding: 30px;
+}
