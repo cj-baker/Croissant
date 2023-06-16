@@ -1,16 +1,25 @@
 body {
   display: block;
-  margin: 60px auto;
   text-align: center;
   background-color: #f4b354;
+  height: 100%;
 }
-
-.container {
-  margin: 100px auto;
+h1 {
+  color: white;
+  font-size: 64px;
+}
+h3 {
+  color: #f4b354;
+}
+p {
+  color: #f4b354 !important;
+}
+.body-container {
+  margin-top: 10px;
+  height: fit-content;
   background-color: #c65405;
-  width: 90%;
-  border-radius: 4px;
   padding: 20px 15px;
+  width: 90%;
 }
 .links {
   padding: 30px;

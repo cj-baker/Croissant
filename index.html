@@ -18,20 +18,53 @@
     <title>Croissant</title>
   </head>
   <body>
-    <div class="container">
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">🥐</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/photo.html">Photo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid rounded shadow-lg body-container">
       <h1>🥐 Croissant</h1>
-      <p>
+      <p text-fluid>
         Legend has it, Viennese bakers working throughout the night heard the
         Turks as they tried to tunnel beneath the city during a 1683 invasion.
         They alerted the city’s defenders, in essence saving it from the Ottoman
         siege. In celebration, the bakers created a pastry that would symbolize
         the crescent moon, which is also the prominent symbol on the Turkish
         flag. The German word kipferl, or crescent, became a culinary
-        re-enactment of Vienna’s victory over the Turks.
+        re-enactment of Vienna’s victory over the Turks."
+        <br />
+        <br />
+        <a
+          href="https://altohartley.com/a-brief-history-of-the-croissant/"
+          class="link-opacity-25-hover text-decoration-none"
+          >➡ Read more here ⬅
+        </a>
       </p>
-      <a href="/" class="links">Home</a>
-      <a href="/photo.html" class="links">Photo</a>
-      <a href="/contact.html" class="links">Contact</a>
     </div>
   </body>
 </html>
